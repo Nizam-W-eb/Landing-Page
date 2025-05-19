@@ -82,3 +82,36 @@ ul{
   
   margin-right:14vw ;
 }
+
+
+
+.main-heading{
+    text-align: center;
+    padding-top:1.5rem;
+    font-weight: 600;
+    font-size:2rem
+}
+
+.main-photos{
+    display: flex;
+    justify-content: center;
+    gap:1.5rem;
+    height: 40vh;
+    width: 100%;
+    margin-top: 3rem;
+    
+    
+}
+
+.main-photos img{
+    height: 150px;
+    width: 150px;
+    flex: 0 1 auto;
+    border-radius: 10%;
+}
+
+.main-text{
+    text-align: center;
+    font-size:0.9rem;
+    font-weight: 600;
+}
