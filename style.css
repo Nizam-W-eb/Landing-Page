@@ -3,28 +3,82 @@ body{
     padding: 0;
     font-family:'Courier New', Courier, monospace;
     box-sizing: border-box;
-    color: white;
+    color: balck;
 }
 
 ul{
     list-style-type: none;
 }
-a{
+.information a{
     text-decoration: none;
     color: white;
 }
 
 .header{
     background-color:#094074;
+    color: white;
     height: 13vh;
     font-weight: bold;
     font-size: large;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 3rem;
 }
+
+
 
 .information ul{
     display: flex;
     gap: 1rem;
+}
+
+
+
+.hero-page{
+    height: 40vh;
+    width: auto;
+    background-color: #5ADBFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero-text{
+    width: fit-content;
+    margin-left:3rem;
+    font-weight: 470;
+    width: 50vw;
+}
+.hero-text .heading{
+    font-size: 3rem ;
+    margin-bottom: 0;
+    margin-top:10px ;
+    
+}
+
+#join{
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    border-radius: 7%;
+    text-align: center;
+    height: 2rem;
+    width: 5rem;
+    background-color: #094074;
+    
+}
+
+.wide-photo{
+  
+  
+  
+  height: 90%;
+  width: auto;
+  border-radius: 10%;
+  
+  margin-right:14vw ;
 }
