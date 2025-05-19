@@ -134,3 +134,41 @@ ul{
     padding-left: 33%;
     font-size: large;
 }
+
+.contact{
+    height: 27vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-info{
+    display: flex;
+    flex-shrink:1 ;
+    border:2px solid black;
+    padding:1.3rem;
+    background-color:#2f9c95;
+    gap:1rem;
+    justify-content: space-between;
+    
+}
+
+.contact p{
+    font-size: 1.16rem;
+    font-weight: 550;
+}
+
+.contact button{
+    all: unset;
+    cursor: pointer;
+    border: 1px solid white;
+    width: 3rem;
+    text-align: center;
+    height: 50;
+    font-size:bold ;
+}
+
+ 
+
